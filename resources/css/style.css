@@ -1,0 +1,39 @@
+body{
+background-color:black;
+}
+
+span{
+  display:inline-block;
+  color:white;
+  font-family:Helvetica;
+  font-size:1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+html{
+  font-size:18px;
+}
+
+img{
+  height:1,5rem;
+  padding-left:0.5rem;
+  padding-right:1rem;
+}
+
+.arrival{
+  background-color: black;
+  color:white;
+
+}
+
+.main image{
+  display:flex;
+}
+
+.arrival{
+
+  
+
+
+}
