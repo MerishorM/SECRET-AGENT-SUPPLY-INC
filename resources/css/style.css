@@ -141,7 +141,7 @@ nav ul li a{
   background-color: black;
   width:15.5rem;
   height:2rem;
-  padding-top:0,5rem;
+  padding-top:0,7rem;
   padding-bottom: 0.5rem;
   text-align:center;
   align-items:center;
@@ -152,6 +152,7 @@ nav ul li a{
   height:2rem;
   padding-top:0.5rem;
   padding-bottom: 0.5rem;
+  padding-right:1rem;
   text-align:center;
   align-items:center;
   border:4px solid black;
@@ -168,6 +169,7 @@ nav ul li a{
   height:2rem;
   padding-top:0.5rem;
   padding-bottom: 0.5rem;
+  padding-right:1.5rem;
   text-align:center;
 }
 
@@ -190,8 +192,28 @@ nav ul li a{
   padding-bottom: 0.5rem;
   text-align:center;
   margin-top:3rem;
+  margin-right:10rem;
 }
 
 .location{
 margin-top:3rem;
+}
+
+.arrangements {
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.arrangements span {
+  color: black;
+}
+
+.footer{
+  color:white;
+  background-color: black
+  height:5rem;
+  text-align:left;
+  padding:5rem;
 }
