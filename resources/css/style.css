@@ -30,6 +30,7 @@ img{
 .main-image{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   height: 25rem;
+  background-repeat: no-repeat;
 }
 
 .arrival{
@@ -181,4 +182,8 @@ nav ul li a{
   padding-top:0.5rem;
   padding-bottom: 0.5rem;
   text-align:center;
+}
+
+.location{
+margin-top:3rem;
 }
