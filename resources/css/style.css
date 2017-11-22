@@ -212,8 +212,13 @@ margin-top:3rem;
 
 footer{
   color:white;
-  background-color: black
+  background-color: black;
   height:5rem;
   text-align:left;
   padding:5rem;
+  width:100rem;
+  margin-top: 4rem;
+  padding-left:30rem;
+  padding-right:20rem;
+  display:flex;
 }
