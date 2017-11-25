@@ -269,11 +269,6 @@ nav ul li a {
 
 @media only screen and (max-width:470px)
 {
-  .main-image{
-    display:flex;
-    height:10rem;
-
-  }
 
   .arrival{
   position: relative;
@@ -302,7 +297,12 @@ nav ul li a {
     padding left:2rem;
   }
 
-  }
+.main-image{
+  height:15rem;
+  flex-direction:column;
+  justify-content:center;
+}
+
   .watch{
     display:none;
   }
@@ -311,22 +311,22 @@ nav ul li a {
     display:none;
   }
 
- .info{
-   display:flex;
-   flex-direction: column;
- }
-
-  .location{
-    width:90%;
-    display:block;
-  }
-
-  .hours{
-    display:block;
-    width:90%;
+  .arrangements{
+    flex-direction:column;
   }
 
   footer{
     text-align:center;
+  }
+}
+
+.products
+.info{
+  flex-wrap:wrap;
+}
+
+.product {
+    width:90%;
+    margin: 1rem;
   }
 }
